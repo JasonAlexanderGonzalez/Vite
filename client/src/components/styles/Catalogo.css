@@ -1,0 +1,143 @@
+/* Estilos para el contenedor del catálogo */
+.catalogo-container {
+    text-align: center; /* Alinea el contenido al centro */
+    margin-top: 20px; /* Espacio entre el encabezado y el botón */
+  }
+  
+/* Estilos para el encabezado h2 */
+.catalogo-container h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    animation: backgroundChange 7s infinite; /* Cambiamos el nombre de la animación */
+  }
+  
+  @keyframes backgroundChange {
+    0% {
+      background-color: #9a5604; /* Color inicial de fondo */
+    }
+    50% {
+      background-color: #825a05; /* Color intermedio de fondo */
+    }
+    100% {
+      background-color: #544503; /* Color final de fondo */
+    }
+  }
+  
+  
+  .catalogo-container Button {
+    font-size: 18px;
+    background-color: #045cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.925); /* Agregamos una sombra */
+    cursor: pointer; /* Cursor de puntero al pasar el mouse */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Agregamos transiciones para los cambios */
+  
+  }
+  
+  .catalogo-container Button:hover {
+    background-color: #024baf; /* Nuevo color de fondo al pasar el mouse */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Nueva sombra al pasar el mouse */
+  }
+  
+  .catalogo-container Button:hover {
+    background-color: #022c58; /* Color de fondo al pasar el mouse sobre el botón */
+  }
+  
+  /* Estilo para el fondo del modal */
+.modal-content {
+    background-color: #180ea3d7; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  /* Estilo para el título del modal */
+  .modal-title {
+    font-size: 24px; /* Cambia el tamaño de fuente del título según tus preferencias */
+    font-weight: bold; /* Otras propiedades de fuente, como negrita, si lo deseas */
+    color: #f1f1f1;
+}
+  
+  /* Estilo para el botón "Close" */
+  .modal-footer .btn-secondary {
+    font-family: "Times New Roman", serif; /* Cambiamos la fuente a "Times New Roman" */
+    background-color: #fef7f7; /* Cambia el color de fondo del botón "Close" según tus preferencias */
+    color: #090707; /* Cambia el color del texto del botón "Close" según tus preferencias */
+    font-size: 18px; /* Cambia el tamaño de fuente del título según tus preferencias */
+    font-weight: bold; /* Otras propiedades de fuente, como negrita, si lo deseas */
+}
+  
+  /* Estilo para el cuerpo del modal (contenido dentro del modal) */
+  .modal-body {
+  
+    background-color: #024a9d;
+    padding: 10px; /* Agrega espacio de relleno al contenido dentro del modal */
+  }
+  
+  /* Estilo para la tabla dentro del modal (si es necesario) */
+ .table
+ {
+    text-align: center;
+  
+  }
+  /* Estilo para la tabla */
+.custom-table {
+  
+    width: 100%;
+    border-collapse: collapse; /* Borra los bordes entre las celdas */
+  }
+  .catalogo-container h3 {
+    margin-left: -5px; 
+  }
+  
+  /* Estilo para las celdas del encabezado de la tabla */
+  .custom-table th {
+    background-color: #1174b7; /* Cambia el color de fondo del encabezado */
+    color: #fff; /* Cambia el color del texto del encabezado */
+    padding: 10px; /* Añade espacio de relleno al encabezado */
+  }
+  
+  /* Estilo para las celdas de datos de la tabla */
+  .custom-table td {
+    background-color: #a9deff; /* Cambia el color de fondo de las celdas de datos */
+    color: white;
+    padding: 10px; /* Añade espacio de relleno a las celdas de datos */
+  }
+
+  button {
+    background-color: #047d59;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #012118;
+    font-family: "Arial", serif;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Agregamos la transición para los cambios */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.937); /* Agregamos una sombra */
+  }
+  
+  button:hover {
+    background-color: #012918;
+    border-color: #005631aa;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Nueva sombra al pasar el mouse */
+  }
+
+  
+  
+  /* Estilo para cuando se presentan Pérdidas */
+  div p:first-child {
+    background-color: #c90a337e; /* Color de fondo para Pérdidas */
+  }
+  
+  /* Estilo para cuando se presentan Ganancias */
+  div p:last-child {
+    background-color: #2ecc7053; /* Color de fondo para Ganancias */
+  }
+  
+
+  
+  

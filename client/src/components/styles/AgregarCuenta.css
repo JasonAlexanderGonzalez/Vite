@@ -1,0 +1,77 @@
+/* AgregarCuenta.css */
+
+.container {
+    /* margin: 20px; */
+    padding: 50px;
+    border: 1px solid #ae0c0cda;
+    border-radius: 5px;
+    background-color: rgba(179, 189, 246, 0.711);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-success, .btn-danger {
+    margin-left: 10px;
+  }
+  
+  .btn-success, .btn-danger {
+    margin-left: 10px;
+    /* Agrega sombra a los botones */
+    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.812);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Estilos adicionales para el efecto hover */
+.btn-success:hover, .btn-danger:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Cambia la sombra en hover */
+    /* Agrega otros estilos hover según tus preferencias */
+}
+
+.input {
+  /* Estilos de fondo y borde */
+  background-color: #ffffff;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.689);
+  border: 1px solid #060273;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos para el elemento p */
+p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+/* Estilos para el contenedor div */
+.nombre-cuenta {
+  background-color: #aeaffba1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #170273;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Espacio entre elementos */
+}
+
+/* Estilos para el elemento p dentro del div */
+.nombre-cuenta p {
+  font-size: 18px;
+  color: #0b0a0a;
+  margin: 0; /* Elimina el margen interior del párrafo */
+}
+
+.App {
+  float: left;
+
+}
+
+
+  
